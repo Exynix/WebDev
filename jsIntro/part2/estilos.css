@@ -1,0 +1,36 @@
+form{
+    margin: 10px;
+    width: 700px;
+}
+input, textarea, label,select{
+    display: block;
+}
+
+label{
+    font-weight: bold;
+}
+
+header{
+    background-color: #1A80B6;
+    height: 50px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+}
+.horizontal label{
+    font-weight: lighter;
+}

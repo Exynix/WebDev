@@ -26,8 +26,7 @@ h1{
     display: flex;
     justify-content: space-around;
     font-size:x-large;
-    text-align: center;
-  
+    text-align: center;    
 }
 
 .coolTitle{
@@ -52,6 +51,7 @@ h1{
     margin-left: 5vh;
     margin-right: 5vh;
     padding-top: 2vh;
+    min-height: 100vh;
 }
 
 .image{
