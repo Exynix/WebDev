@@ -1,0 +1,12 @@
+#tableDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    height: calc(100vh - (10vh));
+}
+
+.personalDataTable{
+    border-color: white;
+    border: solid;
+}

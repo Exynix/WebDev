@@ -4,6 +4,7 @@
 *{
     font-family: Gruppo;
 }
+
 body{
     margin: 0;
     padding: 0;
@@ -12,6 +13,7 @@ body{
     color: white;
 
 }
+
 h1{
     font-family: Bebas Neue;
 }
@@ -27,6 +29,26 @@ h1{
     justify-content: space-around;
     font-size:x-large;
     text-align: center;    
+    padding-top:2%
+}
+
+.content{
+    margin-top: 10vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    padding-top: 2vh;
+    min-height: 100vh;
+}
+
+
+footer{
+    width: auto;
+    height: 20vh;
+    bottom: 0;
+    padding-top: 9vh;
+    background-color: black;
+    text-align: center;
+    font-size:x-large;
 }
 
 .coolTitle{
@@ -43,33 +65,11 @@ h1{
     border-color: black;
 }
 
-.content{
-    /* */
-    /* padding:10vh;
-    */
-    margin-top: 10vh;
-    margin-left: 5vh;
-    margin-right: 5vh;
-    padding-top: 2vh;
-    min-height: 100vh;
-}
 
 .image{
     float:left;
     margin-right: 2vh;
     margin-bottom: 1vh;
-}
-
-footer{
-    width: auto;
-    height: 20vh;
-    bottom: 0;
-    padding-top: 9vh;
-    background-color: black;
-    text-align: center;
-    font-size:x-large;
-
-
 }
 
 
