@@ -10,3 +10,27 @@
     border-color: white;
     border: solid;
 }
+
+body{
+    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
+}
+
+table{
+    font-size: xx-large;
+}
+
+th{
+    font-weight:bold;
+    background-color: darkblue;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Color for odd rows */
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: lightgreen; /* Color for even rows */
+    color: black;
+}
