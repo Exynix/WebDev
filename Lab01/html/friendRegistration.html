@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Friend Registration</title>
     <link rel="stylesheet" href="../css/sharedElements.css">
+    <link rel="stylesheet" href="../css/friendRegistration.css">
+    <script src="../js/friendRegistration.js" defer></script>
 </head>
 
 <body>
@@ -17,13 +19,32 @@
         <a href="sourcesOfInterest.html"> Sources of Interest</a>
     </nav>
 
-    <div class="content">
+    <div class="content" id="pageContent">
         <h1 id="title" class="blueTitleUnderline">
-            Title. This is supposed to be light blue
+            Super important form. Fill it or...
         </h1>
-        <img class="image darkContinuousBorder" src="../Bones of gold.webp" alt="Abstract image depicting a chest with bones of gold" 
-        heigh="400" width="300">
         
+        <form id="friendRegistrationForm" method="post" action="">
+            <fieldset>
+                <legend> Friend Registration (all imaginary of course, imagine having real friends lol) </legend>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="friendName">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="friendName">
+                <label for="image">Image</label>
+                <input type="text" id="image" name="friendImage">
+                <label for="pet">Pet</label>
+                <input type="text" id="pet" name="friendPet">
+            </fieldset>
+           <button type="submit">Register</button>
+        </form>
+
+        <table id="friendsTable">
+            <th>Username</th>
+            <th>Name</th>
+            <th>Image</th>
+            <th>Pets</th>
+        </table>
 
     </div>
 
