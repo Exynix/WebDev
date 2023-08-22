@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Dominoes</h1>
+    </header>
+
+    <form>
+        <fieldset>
+            <legend>Pedido</legend>
+            <label for="txtNombre">Nombre</label>
+            <input type="text" id="txtNombre" name="nombre">
+            <label for="txtCelular">Celular</label>
+            <input type="text" id="txtCelular" name="celular">
+
+            <label for="selectCiudad">Ciudad</label>
+            <input list="selectCiudad" name="ciudad">
+            <datalist id="selectCiudad"> 
+                <option value="bgta">Bogota</option>
+                <option value="med">Medellin</option>
+                <option value="cal">Cali</option>
+            </datalist>
+
+            <label for="selectPizza">Pizza</label>
+            <select name="pizza" id="selectPizza">
+                <option value="pep">Peperoni</option>
+                <option value="car">Carne</option>
+                <option value="pol">Pollo</option>
+            </select>
+
+            <strong>Seleccione una pizza</strong>
+            <div class="horizontal">
+                <label for="rHelado">Helado</label>
+                <input type="radio" name="postre" value="helado" id="rhelado">
+                <label for="rArequipe">Arequipe</label>
+                <input type="radio" name="postre" value="arequipe" id="rArequipe">
+                <label for="rRolls">Rolls</label>
+                <input type="radio" name="postre" value="rolls" id="rRolls">
+            </div>
+
+            <strong>Adicionales</strong>
+            <div class="horizontal">
+                <input type="checkbox" name="servilletas" value="yes" id="chkServilletas">
+                <label for="chkServilletas">Servilletas</label>
+                <input type="checkbox" name="cubiertos" value="yes" id="chkCubiertos"
+                <label for="chkCubiertos">Cubiertos</label>
+            </div>
+
+            <label for="txtComentarios">Comentarios</label>
+            <textarea name="infoGeneral" id="txtComentarios" rows="5" cols="50"></textarea>
+
+            <button type="submit">Enviar pedido</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
