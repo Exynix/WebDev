@@ -1,0 +1,33 @@
+header {
+    background-color: #173268;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+}
+
+#titulo {
+    color: aliceblue;
+    text-align: center;
+    flex-grow: 1;
+}
+
+thead{
+    background-color: #173268;
+    color: aliceblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+#agregar{
+    background-color: #173268;
+    color: white;
+}
+

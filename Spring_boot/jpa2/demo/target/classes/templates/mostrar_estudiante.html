@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" xmlns:th="http://www.thymeleaf.org">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion de estudiante</title>
+</head>
+<body>
+    <a th:href="@{/student/all}">Volver</a>
+    <h1>Informacion de estudiante</h1>
+    <p th:text="${persona.nombre}"></p>
+    <p th:text="${persona.correo}"></p>
+    <p th:text="${persona.carrera}"></p>
+    <p th:text="${persona.semestre}"></p>
+
+    <h2>Tareas Pendientes</h2>
+    <ul th:each="tarea : ${persona.tareas}">
+        <li th:text="${tarea.name}"></li>
+    </ul>
+</body>
+</html>
