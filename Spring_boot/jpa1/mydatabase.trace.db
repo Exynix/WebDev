@@ -1,0 +1,6 @@
+2023-08-29 17:05:50 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * [*]homeowork"; SQL statement:
+select * homeowork [42000-214]
+2023-08-29 17:05:55 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * [*]homework"; SQL statement:
+select * homework [42000-214]
